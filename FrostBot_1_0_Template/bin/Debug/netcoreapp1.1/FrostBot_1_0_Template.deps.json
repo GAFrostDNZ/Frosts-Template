@@ -12,6 +12,7 @@
           "Discord.Net.Commands": "1.0.0-rc3-00744",
           "Discord.Net.Core": "1.0.0-rc3-00744",
           "Discord.Net.Rest": "1.0.0-rc3-00744",
+          "Discord.Net.Rpc": "1.0.0-rc3-00744",
           "Discord.Net.WebSocket": "1.0.0-rc3-00744",
           "Discord.Net.Webhook": "1.0.0-rc3-00744"
         },

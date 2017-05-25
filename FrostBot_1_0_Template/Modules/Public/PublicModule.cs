@@ -7,9 +7,10 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace FrostBot_1_0_Template.Modules.Public
 {
-    class PublicModule : ModuleBase
+    public class PublicModule : ModuleBase<SocketCommandContext>
     {
-        [Command("Test")] //Command Name
+        
+        [Command("test")] //Command Name
         [Remarks("Tests your bot to see if it worked ;)")] //Summary for your command. it will not add anything.
         public async Task Test()
         {

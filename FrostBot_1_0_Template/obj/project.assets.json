@@ -7852,15 +7852,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Owner-1\\.nuget\\packages\\": {}
+    "C:\\Users\\major\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Owner-1\\documents\\visual studio 2017\\Projects\\FrostBot_1_0_Template\\FrostBot_1_0_Template\\FrostBot_1_0_Template.csproj",
+      "projectUniqueName": "C:\\Users\\major\\Downloads\\FrostBot_Template\\FrostBot_1_0_Template\\FrostBot_1_0_Template\\FrostBot_1_0_Template.csproj",
       "projectName": "FrostBot_1_0_Template",
-      "projectPath": "C:\\Users\\Owner-1\\documents\\visual studio 2017\\Projects\\FrostBot_1_0_Template\\FrostBot_1_0_Template\\FrostBot_1_0_Template.csproj",
-      "outputPath": "C:\\Users\\Owner-1\\documents\\visual studio 2017\\Projects\\FrostBot_1_0_Template\\FrostBot_1_0_Template\\obj\\",
+      "projectPath": "C:\\Users\\major\\Downloads\\FrostBot_Template\\FrostBot_1_0_Template\\FrostBot_1_0_Template\\FrostBot_1_0_Template.csproj",
+      "outputPath": "C:\\Users\\major\\Downloads\\FrostBot_Template\\FrostBot_1_0_Template\\FrostBot_1_0_Template\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"

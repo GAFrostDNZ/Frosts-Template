@@ -8,12 +8,11 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace MyBot
 {
-    public class Program : ModuleBase
+    public class Program
     {
         public static void Main(string[] args) =>
             new Program().Start().GetAwaiter().GetResult();
 
-        private IServiceProvider _map;
         private DiscordSocketClient client;
         private CommandHandler handler;
 
@@ -25,20 +24,16 @@ namespace MyBot
             {
                 LogLevel = LogSeverity.Verbose,
             });
-            await client.LoginAsync(TokenType.Bot, "ADD YOUR TOKEN HERE! ~Frost");
 
+            client.Log += Log;
+            await client.LoginAsync(TokenType.Bot, "YOUR TOKEN HERE PLS");
             await client.StartAsync();
-
-
-
 
             Console.WriteLine($"{DateTime.UtcNow}: Your Bot Has Started! Have fun kid ~Frost");
 
-
-
-            var ServiceProvider = ConfigureServices();
-            handler = new CommandHandler(ServiceProvider);
-            await handler.Install(_map, client);
+            var serviceProvider = ConfigureServices();
+            handler = new CommandHandler(serviceProvider);
+            await handler.ConfigureAsync();
 
 
             //Block this program untill it is closed
@@ -54,10 +49,7 @@ namespace MyBot
 
             var services = new ServiceCollection()
                 .AddSingleton(client)
-                .AddSingleton(new CommandService(new CommandServiceConfig { CaseSensitiveCommands = false, ThrowOnError = true, LogLevel = LogSeverity.Verbose }))
-
-                
-
+                 .AddSingleton(new CommandService(new CommandServiceConfig { CaseSensitiveCommands = false }));
             var provider = new DefaultServiceProviderFactory().CreateServiceProvider(services);
 
 
