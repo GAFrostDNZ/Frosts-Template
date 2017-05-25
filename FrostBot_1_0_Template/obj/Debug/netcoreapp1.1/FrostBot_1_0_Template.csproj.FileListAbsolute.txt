@@ -1,0 +1,6 @@
+c:\users\owner-1\documents\visual studio 2017\Projects\FrostBot_1_0_Template\FrostBot_1_0_Template\bin\Debug\netcoreapp1.1\FrostBot_1_0_Template.deps.json
+c:\users\owner-1\documents\visual studio 2017\Projects\FrostBot_1_0_Template\FrostBot_1_0_Template\bin\Debug\netcoreapp1.1\FrostBot_1_0_Template.runtimeconfig.json
+c:\users\owner-1\documents\visual studio 2017\Projects\FrostBot_1_0_Template\FrostBot_1_0_Template\bin\Debug\netcoreapp1.1\FrostBot_1_0_Template.runtimeconfig.dev.json
+c:\users\owner-1\documents\visual studio 2017\Projects\FrostBot_1_0_Template\FrostBot_1_0_Template\bin\Debug\netcoreapp1.1\FrostBot_1_0_Template.dll
+c:\users\owner-1\documents\visual studio 2017\Projects\FrostBot_1_0_Template\FrostBot_1_0_Template\obj\Debug\netcoreapp1.1\FrostBot_1_0_Template.csprojResolveAssemblyReference.cache
+c:\users\owner-1\documents\visual studio 2017\Projects\FrostBot_1_0_Template\FrostBot_1_0_Template\obj\Debug\netcoreapp1.1\FrostBot_1_0_Template.AssemblyInfo.cs
