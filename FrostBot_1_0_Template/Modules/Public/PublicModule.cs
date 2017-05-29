@@ -16,7 +16,7 @@ namespace FrostBot_1_0_Template.Modules.Public
         {
             await ReplyAsync("Successfully Conducted test. Also , you should thank our god ; Frost, for giving you this project."); //makes the bot reply back!
         }
-        [Command("credits"]
+        [Command("credits")]
         [Remarks("Credits for this project")]
         public async Task Credits()
             {
