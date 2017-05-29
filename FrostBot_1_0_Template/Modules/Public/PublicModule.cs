@@ -16,7 +16,21 @@ namespace FrostBot_1_0_Template.Modules.Public
         {
             await ReplyAsync("Successfully Conducted test. Also , you should thank our god ; Frost, for giving you this project."); //makes the bot reply back!
         }
+        [Command("credits"]
+        [Remarks("Credits for this project")]
+        public async Task Credits()
+            {
+                 var embed = new EmbedBuilder()
+                    {
+                        Color = new Color(245 , 232 , 31)
+                    };
+                  embed.Title = $"Credits:";
+                  embed.Description = $"~Frost \n ~Morde";
+                  embed.WithFooter(new EmbedFooterBuilder().WithIconUrl("https://cdn.discordapp.com/attachments/275377268728135680/318819504467476483/FrostBot_LOGO_png.png").WithText($"As Requested By {Context.User.Username}."));
+                    await Context.Channel.SendMessageAsync("" , embed : embed);
+            }
     }
+        
 
 }
 
